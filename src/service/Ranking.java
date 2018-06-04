@@ -19,14 +19,6 @@ public class Ranking  {
         return ranking;
     }
 
-    public List <Player> getPlayerScore() {
-        return playerScore;
-    }
-
-    public void setPlayerScore(List <Player> playerScore) {
-        this.playerScore = playerScore;
-    }
-
     public void setRanking(List <Player> ranking) {
         this.ranking = ranking;
     }

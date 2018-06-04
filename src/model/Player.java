@@ -2,13 +2,23 @@ package model;
 
 import java.util.Objects;
 
-public class Player {
+public class Player implements Comparable<Player>{
     String name;
     int currentScore;
 
     public Player (String name, int currentScore){
         this.name = name;
         this.currentScore = currentScore;
+    }
+    @Override
+    public int compareTo(Player scorePlayer) {      // ordenar o score
+        if (this.currentScore > scorePlayer.getCurrentScore()) {
+            return -1;
+        }
+        if (this.currentScore < scorePlayer.getCurrentScore()) {
+            return 1;
+        }
+        return 0;
     }
 
     public String getName() {
@@ -41,5 +51,7 @@ public class Player {
 
         return Objects.hash(name, currentScore);
     }
+
+
 
 }

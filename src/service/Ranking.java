@@ -31,15 +31,20 @@ public class Ranking  {
         this.ranking = ranking;
     }
 
-    public List<Player> orderScore()
+    public List<Player> orderScore()  //ordena o ranking
     {
         Collections.sort(playerScore);
         return playerScore;
     }
+    public List<Player> cutLowScore(List<Player> playerScore){   ///Elimina os jogadores que não estão nas dez
+                                                                    // primeiras posições da lista após o ordenamento.
 
-    public void clearRanking()
+
+    }
+
+    public void clearRanking(List<Player>ranking)
     {
-        
+        ranking.clear();
     }
 
 

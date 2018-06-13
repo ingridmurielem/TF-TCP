@@ -1,16 +1,24 @@
 package menu;
-
+import javax.swing.JFrame;
+import javax.swing.JButton;
 import model.Gamester;
+import java.awt.FlowLayout;
 
-public class Menu {
+import java.awt.*;
+
+public class Menu extends JFrame{
     Gamester gamester;
 
-    public void createMatch(){  // Inicializa uma partida
+    public void createMatch(){
+
 
     }
     public void showRanking() { //Mostra o ranking na tela
     }
-    public void printMessenges() { //Imprime as informações do menu, faz a comunicação com o usuário.
+    public void printMessenges() {
+
+
+
 
     }
     public void volumeControl() { //Controla o volume dos sons ambientes do jogo

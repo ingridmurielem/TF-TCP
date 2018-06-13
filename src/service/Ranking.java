@@ -5,6 +5,7 @@ import model.Gamester;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Collections;
+import java.util.stream.Collectors;
 
 public class Ranking  {
 
@@ -28,8 +29,8 @@ public class Ranking  {
     }
     public List<Gamester> cutLowScore(List<Gamester> gamesterScore){
             List <Gamester> ranking = new ArrayList <>();
-            ranking = gamesterScore.stream().limit(10);
-            return ranking;                                                   
+            ranking = gamesterScore.stream().limit(10).collect(Collectors.toList());
+            return ranking;
     }
 
     public void clearRanking(List<Gamester>ranking)

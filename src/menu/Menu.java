@@ -1,9 +1,9 @@
 package menu;
 
-import model.Player;
+import model.Gamester;
 
 public class Menu {
-    Player player;
+    Gamester gamester;
 
     public void createMatch(){  // Inicializa uma partida
 

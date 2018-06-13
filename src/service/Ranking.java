@@ -1,40 +1,40 @@
 package service;
 
-import model.Player;
+import model.Gamester;
 import java.util.List;
 import java.util.Collections;
 
 public class Ranking  {
 
-    List<Player> playerScore;
-    List<Player> ranking;
+    List<Gamester> gamesterScore;
+    List<Gamester> ranking;
 
 
-    public Ranking(List<Player> playerScore, List<Player>ranking){
-        this.playerScore = playerScore;
+    public Ranking(List<Gamester> gamesterScore, List<Gamester>ranking){
+        this.gamesterScore = gamesterScore;
         this.ranking = ranking;
     }
 
-    public List <Player> getRanking() {
+    public List <Gamester> getRanking() {
         return ranking;
     }
 
-    public void setRanking(List <Player> ranking) {
+    public void setRanking(List <Gamester> ranking) {
         this.ranking = ranking;
     }
 
-    public List<Player> orderScore()  //ordena o ranking
+    public List<Gamester> orderScore()  //ordena o ranking
     {
-        Collections.sort(playerScore);
-        return playerScore;
+        Collections.sort(gamesterScore);
+        return gamesterScore;
     }
-    public List<Player> cutLowScore(List<Player> playerScore){   ///Elimina os jogadores que não estão nas dez
+    public List<Gamester> cutLowScore(List<Gamester> gamesterScore){   ///Elimina os jogadores que não estão nas dez
                                                                     // primeiras posições da lista após o ordenamento.
 
 
     }
 
-    public void clearRanking(List<Player>ranking)
+    public void clearRanking(List<Gamester>ranking)
     {
         ranking.clear();
     }

@@ -2,20 +2,20 @@ package model;
 
 import java.util.Objects;
 
-public class Player implements Comparable<Player>{
+public class Gamester implements Comparable<Gamester>{
     String name;
     int currentScore;
 
-    public Player (String name, int currentScore){
+    public Gamester(String name, int currentScore){
         this.name = name;
         this.currentScore = currentScore;
     }
     @Override
-    public int compareTo(Player scorePlayer) {      // ordenar o score
-        if (this.currentScore > scorePlayer.getCurrentScore()) {
+    public int compareTo(Gamester scoreGamester) {      // ordenar o score
+        if (this.currentScore > scoreGamester.getCurrentScore()) {
             return -1;
         }
-        if (this.currentScore < scorePlayer.getCurrentScore()) {
+        if (this.currentScore < scoreGamester.getCurrentScore()) {
             return 1;
         }
         return 0;
@@ -41,9 +41,9 @@ public class Player implements Comparable<Player>{
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Player player = (Player) o;
-        return currentScore == player.currentScore &&
-                Objects.equals(name, player.name);
+        Gamester gamester = (Gamester) o;
+        return currentScore == gamester.currentScore &&
+                Objects.equals(name, gamester.name);
     }
 
     @Override

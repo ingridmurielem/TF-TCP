@@ -1,6 +1,8 @@
 package service;
 
 import model.Gamester;
+
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Collections;
 
@@ -10,10 +12,6 @@ public class Ranking  {
     List<Gamester> ranking;
 
 
-    public Ranking(List<Gamester> gamesterScore, List<Gamester>ranking){
-        this.gamesterScore = gamesterScore;
-        this.ranking = ranking;
-    }
 
     public List <Gamester> getRanking() {
         return ranking;
@@ -28,10 +26,10 @@ public class Ranking  {
         Collections.sort(gamesterScore);
         return gamesterScore;
     }
-    public List<Gamester> cutLowScore(List<Gamester> gamesterScore){   ///Elimina os jogadores que não estão nas dez
-                                                                    // primeiras posições da lista após o ordenamento.
-
-
+    public List<Gamester> cutLowScore(List<Gamester> gamesterScore){
+            List <Gamester> ranking = new ArrayList <>();
+            ranking = gamesterScore.stream().limit(10);
+            return ranking;                                                   
     }
 
     public void clearRanking(List<Gamester>ranking)

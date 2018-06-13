@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6c70537-edff-408f-a6ac-36545d37f041" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/service/Button.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Genius.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Genius.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jfugue-5.0.9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jfugue-5.0.9.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/Ranking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/Ranking.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ranking.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Ranking.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/service/Ranking.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+              <caret line="31" column="78" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Button.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Button.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/Button.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="330">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
               <folding>
                 <element signature="e#120#121#0" expanded="true" />
                 <element signature="e#150#151#0" expanded="true" />
@@ -85,12 +83,12 @@
         <option value="$PROJECT_DIR$/src/model/PlayerTest.java" />
         <option value="$PROJECT_DIR$/test/src/model/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/service/RankingTest.java" />
-        <option value="$PROJECT_DIR$/src/service/Ranking.java" />
         <option value="$PROJECT_DIR$/src/menu/Menu.java" />
         <option value="$PROJECT_DIR$/src/model/Player.java" />
         <option value="$PROJECT_DIR$/src/model/Gamester.java" />
         <option value="$PROJECT_DIR$/src/model/Color.java" />
         <option value="$PROJECT_DIR$/src/service/Button.java" />
+        <option value="$PROJECT_DIR$/src/service/Ranking.java" />
       </list>
     </option>
   </component>
@@ -283,16 +281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/Ranking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Color.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -306,11 +294,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/service/Button.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="330">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
           <folding>
             <element signature="e#120#121#0" expanded="true" />
             <element signature="e#150#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/Ranking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="31" column="78" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
